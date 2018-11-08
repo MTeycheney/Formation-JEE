@@ -1,0 +1,6 @@
+Courses numéro {{race.id}} à {{race.location}} le {{race.date | date: "dd MMMM yyyy"}} avec les participants : <br> 
+<ul>
+    <li *ngFor="let p of race.ponies">
+        <app-pony-detail [pony]="p"></app-pony-detail>
+    </li>
+</ul>

@@ -1,0 +1,16 @@
+<h1>Entrer un nouvelle course</h1>
+<form (ngSubmit)="onSubmit()">
+    Lieu <input type="text" id="location" required [(ngModel)]="model.location" name="location" /><br>
+    Date <ngb-datepicker #dp [(ngModel)]="dateModel" [ngModelOptions]="{standalone: true}"></ngb-datepicker><br>
+
+    Poneys:
+    <p-pickList [source]="ponies" [target]="model.ponies" [responsive]="true" dragdrop="true" dragdropScope="ponies">
+        <ng-template let-pony pTemplate="item">
+            <div class="ui-helper-clearfix">
+                {{pony.nom}}
+            </div>
+        </ng-template>
+    </p-pickList>
+
+    <button type="submit">Enregistrer</button>
+</form>

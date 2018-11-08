@@ -1,0 +1,27 @@
+<h1>{{title}}</h1>
+<nav>
+    <a routerLink="/">Courses</a> | 
+    <a routerLink="/Ponies">Pony</a> | 
+    <a routerLink="/Races">Courses</a> | 
+    <a routerLink="/addPonies">Ajouter poney</a> | 
+    <a routerLink="/addPoniesV2">Ajouter poney V2</a> | 
+    <a routerLink="/addRace">Ajouter course</a> | 
+    <a routerLink="/addRaceV2">Ajouter course V2</a> |
+        
+    <div *ngIf="connected == false">
+        <form [formGroup]="logForm" (ngSubmit) = "onSubmitConnection()">
+            ID: <input type='text' id='user' name='user' formControlName="user" /> 
+            MDP: <input type='password' id='password' name='password' formControlName="password" />
+            <button type='submit'>Se connecter</button>
+        </form>
+    </div>
+
+    <div *ngIf="connected == true">
+        <form (ngSubmit) = "onSubmitDeconnection()">
+            Bienvenue <strong>{{identifiant}}</strong> <button type='submit'>Se déconnecter</button>
+        </form>
+    </div>
+        
+</nav>
+<router-outlet></router-outlet>
+

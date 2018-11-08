@@ -1,0 +1,14 @@
+<h1 *ngIf="add">Entrer un nouveau poney</h1>
+<h1 *ngIf="!add">Mettre à jour le pony {{id}}</h1>
+<form [formGroup]="ponyForm" (ngSubmit)="onSubmit()">
+  Nom <input type='text' id='name' name='name' formControlName="name" /><br>
+  Age <input type='number' id='age' name='age'formControlName="age" min="1"/><br>
+  Couleur <input type='text' id='color' name='color'formControlName="color"/><br>
+  Poids <input type='number' id='weight' name='weight'formControlName="weight"min="1"/><br>
+  <button *ngIf="add" type='submit' [disabled]='!ponyForm.valid'>Enregistrer</button>
+  <button *ngIf="!add" type='submit' [disabled]='!ponyForm.valid'>Modifier</button>
+</form>
+
+<p> Valeur: {{ ponyForm.value | json}} </p>
+
+<p> Statut: {{ponyForm.status}} </p>

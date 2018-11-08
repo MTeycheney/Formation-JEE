@@ -1,0 +1,10 @@
+<h1>Entrer un nouvelle course</h1>
+<form [formGroup]="raceForm" (ngSubmit)="onSubmit()">
+  Lieu <input type="text" id="location" name="location" formControlName="location"/><br>
+  Date <ngb-datepicker #dp id="date" name="date" formControlName="date"></ngb-datepicker><br>
+  <button type='submit'>Enregistrer</button>
+</form>
+
+<p> Valeur: {{ raceForm.value | json}} </p>
+
+<p> Statut: {{raceForm.status}} </p>
