@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Race } from '../race';
 
 @Component({
@@ -6,14 +6,25 @@ import { Race } from '../race';
   templateUrl: './race-detail.component.html',
   styleUrls: ['./race-detail.component.css']
 })
-export class RaceDetailComponent implements OnInit {
+export class RaceDetailComponent implements OnInit
+{
 
   @Input() race: Race;
-  constructor() { 
+  @Output() onClick = new EventEmitter<Race>();
+
+  constructor()
+  { 
     
   }
 
-  ngOnInit() {
+  ngOnInit()
+  {
+
+  }
+
+  addVote(race: Race)
+  {
+    this.onClick.emit(race);
   }
 
 }

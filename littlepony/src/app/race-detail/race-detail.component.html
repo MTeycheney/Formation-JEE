@@ -1,6 +1,8 @@
-Courses numéro {{race.id}} à {{race.location}} le {{race.date | date: "dd MMMM yyyy"}} avec les participants : <br> 
-<ul>
+Course numéro: <strong>{{race.id}}</strong>, a lieu à: <strong>{{race.location}}</strong>, le: <strong>{{race.date | date: "dd MMMM yyyy"}}</strong> avec les participants suivants: <br> 
+<ul *ngIf="race.ponies.length > 0">
     <li *ngFor="let p of race.ponies">
+        {{p.nom}}
         <app-pony-detail [pony]="p"></app-pony-detail>
+        <button (click)="addVote(race)">+</button>
     </li>
 </ul>

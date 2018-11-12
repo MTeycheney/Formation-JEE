@@ -10,7 +10,7 @@ export class Race {
     {
         this.id = 0;
         this.ponies = [];
-        this.location = location;
-        this.date = date;
+        location === undefined ? this.location = 'ville' : this.location = location;
+        date === undefined ? this.date = new Date() : this.date = date;
     }
 }

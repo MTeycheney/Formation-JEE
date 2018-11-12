@@ -1,5 +1,8 @@
-<ul>
-  <li *ngFor="let r of races">
-      <app-race-detail [race]="r" ></app-race-detail>
+<p *ngIf="races.length == 0">Pas de courses actuellement</p>
+<ul *ngIf="races.length > 0">
+  <li *ngFor="let r of races; let i = index;">
+      <span>Votes: {{votes[i]}}</span>
+      <br>
+      <app-race-detail [race]="r" (onClick)="onClickParent($event)"></app-race-detail>
   </li>
 </ul>

@@ -14,6 +14,8 @@ import { from } from 'rxjs';
 import {PickListModule} from 'primeng/picklist'; 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
 import { PonyReactiveFormComponent } from './pony-reactive-form/pony-reactive-form.component';
 import { RaceReactiveFormComponent } from './race-reactive-form/race-reactive-form.component';
 import { PonyTransformPipe } from './pony-transform.pipe';
@@ -50,7 +52,8 @@ const route: Routes =
     FormsModule,
     NgbModule,
     PickListModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

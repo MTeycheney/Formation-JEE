@@ -1,5 +1,3 @@
-import { timingSafeEqual } from "crypto";
-
 export class User
 {
     loging: string;
