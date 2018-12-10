@@ -1,0 +1,9 @@
+fr\dta\AngularEtSpring\model\IdEntity.class
+fr\dta\AngularEtSpring\model\Pony.class
+fr\dta\AngularEtSpring\dao\RaceDAO.class
+fr\dta\AngularEtSpring\model\Race.class
+fr\dta\AngularEtSpring\dao\GenericDAO.class
+fr\dta\AngularEtSpring\App.class
+fr\dta\AngularEtSpring\controller\PonyController.class
+fr\dta\AngularEtSpring\controller\RaceController.class
+fr\dta\AngularEtSpring\dao\PonyDAO.class

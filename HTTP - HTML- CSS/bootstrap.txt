@@ -1,0 +1,4 @@
+A-S: trans -> start / end / cen / base / stret
+F-WRP: no / nor / rev
+F-D: axe P -> ro / rorev / corev
+A-C: F-S / F-E / cen / Spabet / Sparou / stret

@@ -1,0 +1,67 @@
+{"properties": [
+  {
+    "name": "url",
+    "type": "java.lang.String",
+    "description": "A description for 'url'"
+  },
+  {
+    "name": "login",
+    "type": "java.lang.String",
+    "description": "A description for 'login'"
+  },
+  {
+    "name": "hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.show_sql'"
+  },
+  {
+    "name": "password",
+    "type": "java.lang.String",
+    "description": "A description for 'password'"
+  },
+  {
+    "name": "hibernate.hbm2ddl.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.hbm2ddl.auto'"
+  },
+  {
+    "name": "hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.format_sql'"
+  },
+  {
+    "name": "hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.dialect'"
+  },
+  {
+    "name": "hibernate.use_second_level_cache",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.use_second_level_cache'"
+  },
+  {
+    "name": "hibernate.cache.provider_class",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.cache.provider_class'"
+  },
+  {
+    "name": "driver",
+    "type": "java.lang.String",
+    "description": "A description for 'driver'"
+  },
+  {
+    "name": "driver",
+    "type": "java.lang.String",
+    "description": "A description for 'driver'"
+  },
+  {
+    "name": "hibernate.cache.use_second_level_cache",
+    "type": "java.lang.String",
+    "description": "A description for 'hibernate.cache.use_second_level_cache'"
+  },
+  {
+    "name": "server.port",
+    "type": "java.lang.String",
+    "description": "A description for 'server.port'"
+  }
+]}

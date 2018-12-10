@@ -1,0 +1,14 @@
+https://www.google.fr/search?rlz=1C1CHBF_frFR813FR813&ei=bci1W-S-POuZlwT4gLWQDg&q=3%2B2&oq=3%2B2&gs_l=psy-ab.3..0l7.9548.10089.0.10663.3.3.0.0.0.0.98.239.3.3.0....0...1c.1.64.psy-ab..0.3.238...0i67k1.0.xOpw3xNuavc
+
+35 requêtes
+HTTP: https://www.google.fr
+Adresse: 172.217.19.227
+Port: 443
+Statut: 200
+
+Corps requête: GET
+Paramètre : aucun
+accept-language: FR -> US -> EN (priorité par poids FR 0.9)
+type de contenu attendu: accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+

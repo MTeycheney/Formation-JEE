@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MEDIATHEQUE - Accueil</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                        <a class="navbar-brand" href="index.html">MA MEDIATHEQUE</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Accueil</a></li>
+                            <li><a href="adherent.html">Espace adhérent</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Rechercher sur le site">
+                            </div>
+                            <button type="submit" class="btn btn-default">Rechercher</button>
+                        </form>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+        </header>
+
+        <div id="main">
+
+            <div id="divTendance">
+                <h2>TENDANCES</h2>
+                <table id="tabTendance">
+                    <tr>
+                        <td><iframe id="tendancesJV"
+                                    title="tendancesJV"
+                                    width="400"
+                                    height="400"
+                                    src="https://toiledefond.net/tendances-marche-jeu-video-2018/">
+                            </iframe></td>
+                        <td><iframe id="tendancesMOV"
+                                    title="tendancesMOV"
+                                    width="400"
+                                    height="400"
+                                    src="http://www.allocine.fr/film/meilleurs/decennie-2010/annee-2018/">
+                            </iframe></td>
+                        <td><iframe id="tendancesBOK"
+                                    title="tendancesBOK"
+                                    width="400"
+                                    height="400"
+                                    src="https://livre.fnac.com/l898/Meilleures-ventes-Livre">
+                            </iframe></td>
+                        <td><iframe id="tendancesMUS"
+                                    title="tendancesMUS"
+                                    width="400"
+                                    height="400"
+                                    src="https://www.shazam.com/fr/charts/top-100/france">
+                            </iframe></td>
+                    <tfoot>
+                        <td>Tendances Jeux vidéos</td>
+                        <td>Tendances Films</td>
+                        <td>Tendances Livres</td>
+                        <td>Tendances Musiques</td>
+                    </tfoot>
+                </table>
+
+
+            </div>
+            <hr>
+            <div id="news">
+                <h2>LES NOUVEAUTES</h2>
+                <table>
+                    <tr>
+                        <td><img src="TWEWY.jpg" height="300"></td>
+                        <td><img src="images.jpg" height="300"></td>
+                        <td><img src="OP.jpg" height="300"></td>
+                        <td><img src="Saosincover.jpg" height="300"></td>
+                        <td><img src="SSB.jpg" height="300"></td>
+                    </tr>
+                    <tr>
+                        <td><strong><a href="objet.html">The World Ends With You - Jeu Vidéo - Nintendo DS</a></strong></td>
+                        <td><strong>Les mondes de Ralph - Film - Disney-Pixar</strong></td>
+                        <td><strong>One Piece Tome 87 - Livre - Mangas</strong></td>
+                        <td><strong>Saosin - Musique - Hard Rock</strong></td>
+                        <td><strong>Super Smash Bros. Ultimate - Jeu Vidéo - Nintendo Switch</strong></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="lent">
+                <h2>LES EMPRUNTS</h2>
+                <table>
+                    <tr>
+                        <td><h3>Emprunteur</h3></td>
+                        <td>Titre de l'article</td>
+                        <td>Catégorie</td>
+                        <td>Date de l'emprunt</td>
+                    </tr>
+                    <tr>
+                        <td>Jonathan</td>
+                        <td><a href="">Les mondes de Ralph</a></td>
+                        <td>Film - Disney-Pixar</td>
+                        <td>04/10/2018</td>
+                    </tr>
+                    <tr>
+                        <td>Maxime</td>
+                        <td><a href="">Saosin</a></td>
+                        <td>Musique - Hard Rock</td>
+                        <td>04/09/2018</td>
+                    </tr>
+                    <tr>
+                        <td>Camille</td>
+                        <td><a href="objet.html">The World Ends With You</a></td>
+                        <td>Jeu vidéo - Nintendo DS</td>
+                        <td>04/08/2018</td>
+                    </tr>
+                    <tr>
+                        <td>Kenny</td>
+                        <td><a href="">One Piece Tome 87</a></td>
+                        <td>Livre - Mangas</td>
+                        <td>04/07/2018</td>
+                    </tr>
+                    <tr>
+                        <td>Angélina</td>
+                        <td><a href="">Super Smash Bros. Ultimate</a></td>
+                        <td>Jeu Vidéo - Nintendo Switch</td>
+                        <td>04/06/2018</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Nombre d'emprunts totaux : 5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <h2>PIED DE PAGE</h2>
+        </footer>
+    </body>
+
+</html>
+
+
+<!-- 
+
+TP5
+Sur la page d’accueil, rajouter des zones d’informations sur les tendances pour chaque type
+d’objet, les notes de service et quelques indicateurs par exemple. ???
+
+
+Travailler sur le tableau, proposer un header différent des lignes de données (fond de
+couleur, aération, alignement). Alterner la couleur entre ligne paire et impaire (et proposer
+un effet visuel au survol).
+Comment le tableau se présente-il sur un écran étroit ? Quelle solution apporter ?
+Travailler sur le menu, présenter un libellé et une image (icone), présenter les liens
+principaux à gauche et un lien de connexion/déconnexion à droite.
+Utiliser Fontawesome / glyph icons / autre… autre pour rajouter des icones
+Jouer sur les styles de texte et les tailles.
+Faire en sorte que la taille des titres soit proportionnelle à la résolution de l’écran.
+La taille du contenu texte des tableaux doit être fixée à la même taille que la balise body.
+Les entêtes des tableaux doivent avoir une taille 1,5x plus grande que la taille par défaut des
+contenus des tableaux.
+Arrondir les boutons, mettre une icône, et changer la couleur de fond au survol
+Mettre en forme le formulaire de création d’un adhérent (chaque label doit être à côté ou
+au-dessus de son champ ; les labels et les champs doivent être alignés et de même
+largeur).
+Styler les champs de formulaire invalides
+La page d’accueil doit s’afficher correctement sur un écran « étroit », inférieur à 576px.
+Proposer une mise en page différente pour les résolutions inférieures et supérieures à
+768px.
+
+TP6
+Reprenez les pages de la médiathèque et appliquer une structure Bootstrap pour rendre
+l’ensemble totalement responsive.
+Se reporter à la documentation officielle sans limite !
+Inclure :
+· une barre de navigation (prendre connaissance des variantes)
+· une grille qui organise la mise en page
+· un fil de navigation (breadcrumb)
+· styler les boutons selon le style principal de bootstrap (style primary)Sur la page accueil :
+· Proposer une présentation différente des blocs des nouveautés, des tendances et des
+notes : 3 colonnes sur écran large, 2 colonnes sur écran medium, 1 colonne sur écran
+small.
+· Cacher le bloc indicateur sur les mobiles
+· Présenter différemment le tableau des emprunts sur un affichage mobile (xs et sm),
+appliquer un style de Bootstrap sur le tableau
+Sur la page objet :
+· mettre un tooltip sur les images pour afficher des informations contextuelles
+· mettre « en avant » le titre de l’objet et son synopsis (utiliser le jumbotron)
+· implémenter une barre de progression sur la page objet indiquant le niveau de
+satisfaction des emprunteurs par exemple (bonus : reprendre ou commencer le
+classement des notes des utilisateurs du TP précédent de la médiathèque)
+Bonus
+· reprendre le formulaire adhérent et formater le avec les classes de Bootstrap,
+s’assurer qu’il soit bien adapté en petite résolution
+· rajouter un carousel présentant les nouveautés et les tendances
+· rendre les blocs « Nouveauté », « Tendance », « Notes », rétractables en cliquant sur
+leur titre/entête
+· rajouter une barre de pagination pour le tableau des emprunts
+· retravailler le plan de la médiathèque avec les classes de Bootstrap
+-->

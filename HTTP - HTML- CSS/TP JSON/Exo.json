@@ -1,0 +1,50 @@
+/*
+Exemple de fichier JSON : https://jsonplaceholder.typicode.com/posts
+
+Ecrire une fonction qui charge ce fichier JS dans un tableau.
+Code de chargement de votre fichier : 
+let requestURL = 'votre url locale';
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'text';
+request.send();
+request.onload = function() {
+    let res = request.response;
+    … votre code …
+}
+
+Parcourir votre tableau et afficher si l’objet est emprunté et par qui, sinon afficher que l’objet est disponible à l’emprunt.
+*/
+
+[
+    {
+        "id": 1,
+        "titre": "The World Ends With You",
+        "category": "Jeu vidéo - Nintendo DS",
+        "emprunt":{"utilisateur":{"userId" : 1,"nom" : "ESTEVES","prenom": "Camille"},"dateEmprunt": "04/08/2018"}
+    },
+    {
+        "id": 2,
+        "titre": "Saosin",
+        "category": "Musique - Hard Rock",
+        "emprunt":{"utilisateur":{"userId" : 2,"nom" : "TEYCHENEY","prenom": "Maxime"},"dateEmprunt": "04/09/2018"}
+    },
+    {
+        "id": 3,
+        "titre": "Les mondes de Ralph",
+        "category": "Film - Disney-Pixar",
+        "emprunt":{"utilisateur":{"userId" : 3,"nom" : "MERLIN","prenom": "Jonathan"},"dateEmprunt": "04/10/2018"}
+    },
+    {
+        "id": 4,
+        "titre": "TOne Piece Tome 87",
+        "category": "Livre - Mangas",
+        "emprunt":{"utilisateur":{"userId" : 4,"nom" : "RICHARD","prenom": "Kenny"},"dateEmprunt": "04/07/2018"}
+    },
+    {
+        "id": 5,
+        "titre": "Super Smash Bros. Ultimate",
+        "category": "Jeu Vidéo - Nintendo Switch",
+        "emprunt":{"utilisateur":{"userId" : 5,"nom" : "OUDIN","prenom": "Angélina"},"dateEmprunt": "04/06/2018"}
+    }
+]

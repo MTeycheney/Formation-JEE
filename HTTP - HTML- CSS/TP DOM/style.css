@@ -1,0 +1,14 @@
+.paragraphe
+{
+    border: 2px solid black;
+}
+
+
+
+.paraModif
+{
+    width: 75%;
+    margin: 30px;
+    padding: 30px;
+    color: red;
+}

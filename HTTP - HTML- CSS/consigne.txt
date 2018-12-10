@@ -1,0 +1,27 @@
+Médiathèque M4 (fin de séance)
+Reprendre les pages « index.html », « adherent.html » et « objet.html » et proposer une mise en page CSS à votre goût. Chacun présentera une ou plusieurs solutions qu’il aura mises en place.
+
+Sur la page d’accueil, rajouter des zones d’informations sur les tendances pour chaque type d’objet, les notes de service et quelques indicateurs par exemple.
+
+Mettre en forme les images des blocs sur l’accueil et dans la fiche objet (simuler le fait d’utiliser des images de différentes tailles, hauteur et largeur)
+
+Placer le pied de page en bas de page (même quand il n’y a pas assez de contenu)
+
+Travailler sur le tableau, proposer un header différent des lignes de données (fond de couleur, aération, alignement). Alterner la couleur entre ligne paire et impaire (et proposer un effet visuel au survol).
+
+Comment le tableau se présente-il sur un écran étroit ? Quelle solution apporter ?
+
+Travailler sur le menu, présenter un libellé et une image (icone), présenter les liens principaux à gauche et un lien de connexion/déconnexion à droite.
+
+Utiliser Fontawesome / glyph icons / autre… autre pour rajouter des icones
+
+Jouer sur les styles de texte et les tailles.
+Faire en sorte que la taille des titres soit proportionnelle à la résolution de l’écran.
+La taille du contenu texte des tableaux doit être fixée à la même taille que la balise body. Les entêtes des tableaux doivent avoir une taille 1,5x plus grande que la taille par défaut des contenus des tableaux.
+
+Arrondir les boutons, mettre une icône, et changer la couleur de fond au survol
+Mettre en forme le formulaire de création d’un adhérent (chaque label doit être à côté ou au-dessus de son champ ; les labels et les champs doivent être alignés et de même largeur).
+Styler les champs de formulaire invalides
+
+La page d’accueil doit s’afficher correctement sur un écran « étroit », inférieur à 576px.
+Proposer une mise en page différente pour les résolutions inférieures et supérieures à 768px.

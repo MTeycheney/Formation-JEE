@@ -1,0 +1,6 @@
+fr\dta\spring\jv\App.class
+fr\dta\spring\jv\DatabaseConfiguration.class
+fr\dta\spring\jv\controller\PersonnageController.class
+fr\dta\spring\jv\model\Personnage.class
+fr\dta\spring\jv\dao\GenericDAO.class
+fr\dta\spring\jv\dao\PersonnageDAO.class

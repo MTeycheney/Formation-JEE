@@ -1,0 +1,102 @@
+/*écrire tous les titres en lettre capitale*/
+h1
+{
+    text-transform: uppercase;
+}
+
+/*écrire uniquement le titre de l'article en magenta*/
+.main header h1
+{
+    color: magenta;
+}
+
+/*tout souligner*/
+*
+{
+    text-decoration: underline;
+}
+
+/*centrer le paragraphe P1*/
+div p:first-child
+{
+    text-align:center;
+}
+
+/*mettre les paragraphes de l'article en fond gris*/
+article p
+{
+    background-color:grey;
+}
+
+/*mettre les paragraphes qui contiennent "Entete" et "Pied de page" en italique*/
+article p:nth-child(2), article p:last-child
+{
+    font-style: italic;
+}
+
+/*mettre la première lettre de chaque paragraphe en bleu*/
+p:first-letter
+{
+    color:blue;
+}
+
+/*ne pas afficher le dernier paragraphe P4*/
+.hide
+{
+    visibility: hidden;
+}
+
+/*appliquer une marge haut et bas de 30px sur les paragraphes du contenu secondaire*/
+div p
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*afficher en plus petit le span donnant des précisions dans le paragraphe P2*/
+div p:nth-child(2) span
+{
+    font-size: 10px;
+}
+
+/*changer le type de puce de la liste "funky"*/
+li
+{
+    list-style-type: square;
+}
+
+/*alterner les couleurs de chaque élément de la liste*/
+ul li:nth-child(even)
+{
+    color: purple;
+}
+
+ul li:nth-child(odd)
+{
+    color: red;
+}
+
+/*afficher les étoiles *** en vert*/
+div >span
+{
+    color:green;
+}
+
+/*au focus sur le champ nom, mettre une bordure bleu en pointillé*/
+.inscription input:last-child:focus
+{
+    border-color:blue;
+    border-style:dashed;
+}
+
+/*mettre une couleur au survol des titres*/
+h1:hover
+{
+    background-color: yellow;
+}
+
+/*mettre 50px de marge avant et après la ligne <hr /> sans utiliser le ciblage direct de la balise hr*/
+:empty:not(input)
+{
+    margin: 50px 0px 50px 0px;
+}
